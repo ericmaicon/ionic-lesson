@@ -45,6 +45,7 @@
 		93939EEB283C4FEEBD486CE3 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E75F1FBC64B441890B9BBCA /* CDVDevice.m */; };
 		CF7D8D92EC2A495DB2F6E699 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B7A5287FF9476C90A4465F /* CDVSplashScreen.m */; };
 		31E9255E3B8E4D278F3FDE25 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5724448E744955850F5959 /* CDVViewController+SplashScreen.m */; };
+		2CE9E4DD2FB8448EBC290CB0 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 976C93E614834EB6A05D3C93 /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,8 @@
 		CC5724448E744955850F5959 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		145543035EB94BB085E26156 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		FD43AADE17C341B292DC3489 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		976C93E614834EB6A05D3C93 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		47CA70789AA04B4AB75B2313 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +235,8 @@
 				CC5724448E744955850F5959 /* CDVViewController+SplashScreen.m */,
 				145543035EB94BB085E26156 /* CDVSplashScreen.h */,
 				FD43AADE17C341B292DC3489 /* CDVViewController+SplashScreen.h */,
+				976C93E614834EB6A05D3C93 /* CDVInAppBrowser.m */,
+				47CA70789AA04B4AB75B2313 /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -422,6 +427,7 @@
 				93939EEB283C4FEEBD486CE3 /* CDVDevice.m in Sources */,
 				CF7D8D92EC2A495DB2F6E699 /* CDVSplashScreen.m in Sources */,
 				31E9255E3B8E4D278F3FDE25 /* CDVViewController+SplashScreen.m in Sources */,
+				2CE9E4DD2FB8448EBC290CB0 /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
